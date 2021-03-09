@@ -1,0 +1,93 @@
+@import url("https://simbo.codes/css-reset-and-normalize/reset-and-normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital@0;1&display=swap");
+
+body {
+  color: #dadaec;
+  background: #000016;
+  font-family: "Archvo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-font-smoothing: antialiased;
+  -moz-text-rendering: optimizeLegibility;
+}
+
+.page {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 0.35rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+}
+
+a:hover {
+  color: #444;
+}
+
+sub {
+  color: #666;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #eee;
+  display: block;
+  margin: 1rem 0 1.5rem 0;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact li {
+  margin-bottom: 1.5rem;
+}
+
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}
